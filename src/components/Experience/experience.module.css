@@ -1,19 +1,45 @@
+.xpContainer {
+    margin-top: 70px;
+}
+
 .xpTitle {
     font-weight: 500;
     font-size: 1.5rem;
+}
+
+.title {
+    text-align: center;
+}
+
+.xpCardsContainer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .xpCard {
     display: flex;
     justify-content: space-between;
 
+    background-color: var(--light-purple);
+    box-shadow: var(--background-header) 0px 5px 15px;
 
+    padding: 20px;
     width: 900px;
+}
+
+.xpInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
 }
 
 .text {
     font-weight: 200;
     width: 500px;
+    text-indent: 10px;
 }
 
 .ilustration {

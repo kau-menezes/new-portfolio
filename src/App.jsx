@@ -4,6 +4,7 @@ import Greetings from "./components/Greetings"
 import Header from "./components/Header"
 import Projects from "./components/Projects"
 import "./index.css"
+import style from "./App.module.css"
 
 function App() {
 
@@ -14,7 +15,9 @@ function App() {
         <Greetings/>
         <h1>ARRUMAR OS LINKS TÁ</h1>
         <About/>
+        <hr className={style.hr}/>
         <Projects/>
+        <hr className={style.hr}/>
         <Experience/>
         <h1>working on it... 🚧</h1>
       </main>
