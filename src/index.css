@@ -1,0 +1,54 @@
+/* reset */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* global */
+
+:root {
+    --background-header: rgb(19, 12, 51);
+    --default-purple: rgba(77,44,159,1);
+    --light-purple: rgb(134, 113, 189);
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(125deg, rgba(19, 12, 51, 1) 25%, rgba(77, 44, 159, 1) 100%);
+    color: aliceblue;
+}
+
+main {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+
+h4 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 1rem;
+
+}

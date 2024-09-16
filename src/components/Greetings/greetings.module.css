@@ -1,0 +1,31 @@
+.greetings {
+    display: flex;
+    flex-direction: row;
+}
+
+.greetings > h1 {
+    font-weight: 600;
+    
+}
+
+.nameGreetings {
+    color: var(--default-purple);
+    margin-left: 6px;
+}
+
+.greetingsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.specificationGreetings {
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.specificationGreetings > h4 {
+    font-weight: 300;
+}
