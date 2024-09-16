@@ -1,0 +1,43 @@
+.projects {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title {
+    text-align: center;
+}
+
+.projectsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    width: 400px;
+    padding: 20px;
+    max-width: 400px;
+
+    box-shadow: rgba(255, 255, 255, 0.9) 0px 5px 15px;
+}
+
+.gitLogo {
+    width: 20px;
+    height: 20px;
+}
+
+.projectText {
+    font-weight: 200;
+    text-indent: 10px;
+    text-align: center;
+}
