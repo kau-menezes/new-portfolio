@@ -1,4 +1,5 @@
 import style from "./about.module.css"
+import Batata from "../../img/Screenshot_20240325_112858_Photos.jpg"
 
 export default function About() {
     
@@ -6,7 +7,7 @@ export default function About() {
         <>
         <div className={style.mainContainer}>
             <div className={style.part1}>
-                <img className={style.profileImg} src="./src/img/Screenshot_20240325_112858_Photos.jpg" alt="" id="main-picture"/>
+                <img className={style.profileImg} src={Batata} alt="" id="main-picture"/>
                 <ul className={style.ulLogo}>
                     <li><a href="https://github.com/kau-menezes" target="blank"><img className={style.logo} src="../../../src/img/github-logo.png" alt=""/></a></li>
                     <li><a href=""><img className={style.logo} src="../../../src/img/insta.jpg" alt=""/></a></li>
