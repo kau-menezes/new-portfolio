@@ -5,6 +5,7 @@ import Header from "./components/Header"
 import Projects from "./components/Projects"
 import "./index.css"
 import style from "./App.module.css"
+import Education from "./components/Education"
 
 function App() {
 
@@ -16,9 +17,10 @@ function App() {
         <h1>ARRUMAR OS LINKS TÁ</h1>
         <About/>
         <hr className={style.hr}/>
-        <Projects/>
-        <hr className={style.hr}/>
         <Experience/>
+        <hr className={style.hr}/>
+        <Projects/>
+        <Education/>
         <h1>working on it... 🚧</h1>
       </main>
     </>
