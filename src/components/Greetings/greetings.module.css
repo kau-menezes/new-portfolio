@@ -2,6 +2,10 @@
     display: flex;
     flex-direction: row;
 }
+
+.greetings, .greetingsTwo {
+    width: 500px;
+}
 /* 
 .greetings > h1 {
     font-weight: 600;
@@ -17,13 +21,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: aqua;
+    justify-content: center;
+    height: 90vh;
     
 }
 
 .specificationGreetings {
     display: flex;
     justify-content: space-between;
+
+    width: 100%;
 
     
 }

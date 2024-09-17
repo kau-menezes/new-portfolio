@@ -8,7 +8,6 @@ export default function About() {
     
     return(
         <>
-
         <div className={style.mainContainer}>
             <div className={style.part1}>
                 <img className={style.profileImg} src={Batata} alt="" id="main-picture"/>

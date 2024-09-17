@@ -9,10 +9,10 @@ export default function Header() {
         <nav className={style.nav}>
             <ul className={style.ul}>
                 <li className={style.li} ><a className={style.a} href="#about">About Me</a></li>
-                <li className={style.li} ><a className={style.a} href="#education">Education</a></li>
                 <li className={style.li} ><a className={style.a} href="#skills">Skills</a></li>
                 <li className={style.li} ><a className={style.a} href="#experience">Experience</a></li>
                 <li className={style.li} ><a className={style.a} href="#projects">Projects</a></li>
+                <li className={style.li} ><a className={style.a} href="#education">Education</a></li>
                 <li className={style.li} ><a className={style.a} href="#contact">Contact</a></li>
             </ul>
         </nav>

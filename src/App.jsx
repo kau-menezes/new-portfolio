@@ -13,13 +13,12 @@ function App() {
     <>
       <Header/>
       <main>
-        <Greetings/>
-        <h1>ARRUMAR OS LINKS TÁ</h1>
+        <Greetings id="about"/>
         <About/>
-        <hr className={style.hr}/>
+        <hr className={style.hr} id="experience"/>
         <Experience/>
-        <hr className={style.hr}/>
-        <Projects/>
+        <hr className={style.hr} id="projects"/>
+        <Projects />
         <Education/>
         <h1>working on it... 🚧</h1>
       </main>
