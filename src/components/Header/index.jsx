@@ -5,14 +5,15 @@ export default function Header() {
     <>
     <header className={style.header}>
         <h3 >Kauane Menezes</h3>
-        <nav>
+        <span className={style.menu}>oi</span>
+        <nav className={style.nav}>
             <ul className={style.ul}>
-                <li className={style.li} ><a className={style.a} href="">About Me</a></li>
-                <li className={style.li} ><a className={style.a} href="">Education</a></li>
-                <li className={style.li} ><a className={style.a} href="">Skills</a></li>
-                <li className={style.li} ><a className={style.a} href="">Experience</a></li>
-                <li className={style.li} ><a className={style.a} href="">Projects</a></li>
-                <li className={style.li} ><a className={style.a} href="">Contact</a></li>
+                <li className={style.li} ><a className={style.a} href="#about">About Me</a></li>
+                <li className={style.li} ><a className={style.a} href="#education">Education</a></li>
+                <li className={style.li} ><a className={style.a} href="#skills">Skills</a></li>
+                <li className={style.li} ><a className={style.a} href="#experience">Experience</a></li>
+                <li className={style.li} ><a className={style.a} href="#projects">Projects</a></li>
+                <li className={style.li} ><a className={style.a} href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>

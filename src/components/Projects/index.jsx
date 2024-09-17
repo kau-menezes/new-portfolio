@@ -2,7 +2,7 @@ import style from "./projects.module.css"
 
 export default function Projects() {
     return (
-        <div className={style.projects}>
+        <div  id="projects"  className={style.projects}>
         <h2 className={style.title}>Projects</h2>
         <div className={style.projectsContainer}>
             <div className={style.card}>

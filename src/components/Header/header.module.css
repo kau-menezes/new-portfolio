@@ -63,3 +63,18 @@
     width: 100%;
     transition: 0.3s;
 }
+
+.menu {
+    display: none;
+}
+
+@media only screen and (max-width: 920px) {
+
+    .nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
