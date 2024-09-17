@@ -25,6 +25,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 70px;
 }
 
 a {
@@ -34,15 +35,18 @@ a {
 
 h1 {
     font-size: 3.2rem;
+    font-weight: 800;
 }
 
 h2 {
-    font-size: 2.8rem;
+    font-size: 2rem;
+    font-weight: 700;
+
 }
 
 h3 {
-    font-weight: 700;
-    font-size: 2rem;
+    font-weight: 500;
+    font-size: 1.5rem;
 
 }
 

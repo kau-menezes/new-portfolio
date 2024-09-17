@@ -3,9 +3,9 @@ import style from "./greetings.module.css"
 export default function Greetings() {
     return (
     <>
-        <div className="greetingsContainer">
+        <div>
             <div className={style.greetings}>
-                <h1>Hi, Im</h1>
+                <h1>Hi, I'm</h1>
                 <h1 className={style.nameGreetings}>Kauane</h1>
             </div>
             <h1>nice to meet you!</h1>

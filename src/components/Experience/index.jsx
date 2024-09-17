@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 
-import boschLogo from "../../../src/img/bosch-logo.jpg"
+import boschLogo from "../../../src/img/bosch-logo-final.png"
 import vpcLogo from "../../../src/img/Illustration-1.jpg"
 
 import style from "./experience.module.css"
@@ -8,7 +8,7 @@ import style from "./experience.module.css"
 export default function Experience() {
     return (
         <div className={style.xpContainer}>
-            <h3 className={style.title}>Experiences</h3>
+            <h2 className={style.title}>Experiences</h2>
             <div className={style.xpCardsContainer}>
             <div className={style.xpCard}>
                 <img className={style.ilustration} src={boschLogo} alt="" />

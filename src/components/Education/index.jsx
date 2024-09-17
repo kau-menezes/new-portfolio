@@ -6,7 +6,7 @@ import senaiLogo from "../../../src/img/unibrasil.jpg"
 export default function Education() {
     return (
         <div className={style.eduContainer}>
-            <h3>Education</h3>
+            <h2>Education</h2>
             <div className={style.eduCard}>
                 <img className={style.ilustration} src={senaiLogo} alt="" />
                 <div className={style.eduInfo}>

@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: row;
 }
-
+/* 
 .greetings > h1 {
     font-weight: 600;
     
-}
+} */
 
 .nameGreetings {
     color: var(--default-purple);
@@ -17,6 +17,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: aqua;
+    
 }
 
 .specificationGreetings {

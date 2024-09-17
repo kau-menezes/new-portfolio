@@ -3,7 +3,7 @@ import style from "./projects.module.css"
 export default function Projects() {
     return (
         <div className={style.projects}>
-        <h3 className={style.title}>Projects</h3>
+        <h2 className={style.title}>Projects</h2>
         <div className={style.projectsContainer}>
             <div className={style.card}>
                 <span className={["material-symbols-outlined"]}>storage</span>
