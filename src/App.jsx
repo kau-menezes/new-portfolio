@@ -6,6 +6,7 @@ import Projects from "./components/Projects"
 import "./index.css"
 import style from "./App.module.css"
 import Education from "./components/Education"
+import Contact from "./components/Contact"
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <hr className={style.hr} id="projects"/>
         <Projects />
         <Education/>
+        <Contact/>
         <h1>working on it... 🚧</h1>
       </main>
     </>
