@@ -22,7 +22,6 @@ function App() {
         <Projects />
         <Education/>
         <Contact/>
-        <h1>working on it... 🚧</h1>
       </main>
     </>
   )

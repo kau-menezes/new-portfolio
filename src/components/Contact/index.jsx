@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable no-unused-vars */
 import style from "./contact.module.css"
 
 import git from "../../img/github-logo.png"

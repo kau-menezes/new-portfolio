@@ -16,12 +16,14 @@
 .eduCard {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     background-color: var(--default-purple);
     box-shadow: var(--background-header) 0px 5px 15px;
 
     padding: 20px;
-    width: 700px;
+    width: 80%;
+    max-width: 700px;
 }
 
 
@@ -39,5 +41,5 @@
 }
 
 .eduTitle {
-    width: 400px;
+    max-width: 400px;
 }

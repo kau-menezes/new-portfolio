@@ -1,10 +1,12 @@
 .greetings {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .greetings, .greetingsTwo {
-    width: 500px;
+    width: 60%;
+    max-width: 500px;
 }
 /* 
 .greetings > h1 {
@@ -23,6 +25,7 @@
     align-items: center;
     justify-content: center;
     height: 90vh;
+    width: 100%;
     
 }
 
@@ -30,7 +33,8 @@
     display: flex;
     justify-content: space-between;
 
-    width: 100%;
+    width: 60%;
+    max-width: 500px;
 
     
 }

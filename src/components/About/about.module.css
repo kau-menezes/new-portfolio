@@ -13,7 +13,9 @@
 }
 
 .profileImg {
-    width: 500px;
+    width: 80%;
+    max-width: 500px;
+    min-width: 300px;
 }
 
 .logo {
@@ -42,7 +44,7 @@
 .part2 {
     width: 100%;
     max-width: 800px;
-    min-width: 450px;
+    min-width: 300px;
     
 }
 
